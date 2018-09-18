@@ -1,21 +1,21 @@
 # RTR105
-Datormācības kursa elektroniskā klade
+**Datormācības kursa elektroniskā klade**
 
-Ctrl+Alt+T  - Termināļā ieslēgšasna
-Ctrl+L   - Termināļā attīrīšana
-Firefox &   - Atvērt internetu
-Burts(i)+TAB    - komandu saraksts
+  Ctrl+Alt+T  - Termināļā ieslēgšasna  
+  Ctrl+L   - Termināļā attīrīšana  
+  Firefox &   - Atvērt internetu  
+  Burts(i)+TAB    - komandu saraksts  
 
 
 
-OS  - operētājsistēma
-u   - 
-uname  - OS nosaukums
-man uname   - sīkāka informācija par doto komandu
-uname -a   - OS apraksts
-echo $0
-$ whoami
-whoami
+  OS  - operētājsistēma  
+  u   -   
+  uname  - OS nosaukums  
+  man uname   - sīkāka informācija par doto komandu  
+  uname -a   - OS apraksts  
+  echo $0  
+  $ whoami  
+  whoami  
 who
 pwd
 man pwd
