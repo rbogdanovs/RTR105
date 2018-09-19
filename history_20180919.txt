@@ -43,3 +43,49 @@
    43  chmod 764 git-upload 
    44  ls -l
    45  history > history_20180919.txt
+   46  ls -l
+   47  ./git-upload
+   48  ./git-upload 20180919_09_50
+   49  nano git-upload
+   50  ./git-upload 20180919_09_50
+   51  nano git-upload
+   52  ./git-upload 20180919_09_50
+   53  git clone https://github.com/rbogdanovs/RTR105
+   54  ls -l
+   55  mv git-upload RTR105/
+   56  ls -l
+   57  mv history_20180919.txt RTR105/
+   58  ls -l
+   59  cat README.md 
+   60  cat RTR105/README.md 
+   61  mv README.md README1.md 
+   62  mv README1.md RTR105/
+   63  ls -l
+   64  mv ../RTR105/ ../RTR106/
+   65  cd ..
+   66  ls -l
+   67  cd RTR106/
+   68  ls -l
+   69  mv RTR105/ ../
+   70  ls -l
+   71  cd ..
+   72  ls -l\
+   73  ls -l
+   74  cd RTR105
+   75  ls -l
+   76  cd ..
+   77  rm RTR106/
+   78  rm -r RTR106/
+   79  rm -rf RTR106/
+   80  ls -l
+   81  cd RTR105/
+   82  ls -l
+   83  ./git-upload 20180919_09_50
+   84  nano git-upload
+   85  ./git-upload 20180919_09_50
+   86  python
+   87  ipython
+   88  idle
+   89  pwd
+   90  ls -l
+   91  history > history_20180919.txt
