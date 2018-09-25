@@ -77,5 +77,9 @@
    47  ls -l
 48 history > history_20180912.txt
     2.stunda  
-    3.Stunda  
+    3.Stunda 
+    Stunda Skripts
+mkdir Mape
+cd	Mape
+mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam) cat-pārskatīt sarakstu nano-mans_skripts.sh (veidojam mapi) echo $PATH -(komandu saraksts) Path = piešķiršanas operāciju zīme rwx-111(7) rwx- 110(6) rwx- 100(4) ar skriptu var izveidot mapi instrukcijas 0/1 >OS fails rakstīts cilvēkam saprotama valodā- tas nogādā interpratoram un -tas (OS)
     3.stunda  
