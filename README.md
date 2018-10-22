@@ -1,83 +1,51 @@
 # RTR105
 **Datormācības kursa elektroniskā klade**
-  1.Stunda
-  Ctrl+Alt+T  - Termināļā ieslēgšasna  
-  Ctrl+L   - Termināļā attīrīšana  
-  Firefox &   - Atvērt internetu  
-  Burts(i)+TAB    - komandu saraksts  
+    
+    .Stunda   
+       
+7.Stunda(history_20181017.txt)
+      1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/rbogdanovs/RTR105
+    4  ls -l
+    5  cd RTR105
+    6  firefox &
+    7  idle &
+    8  ls -l
+    9  ls -lt
+   10  history
+       11  history > history_20181017.txt
+    7.Stunda
 
+6.Stunda
+    dgr_20181010_9_55.py
+    test_20181010_1.py
+    test_20181010_2.py
+    6.Stunda
 
+5.Stunda(history_20181003a.txt)
+      1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  pwd
+    5  idle &
+    6  nano dgr_20181003a.py
+    7  ls- l
+    8  ls -l
+       9  history > history_20181003a.txt
+    5.Stunda
 
-  OS  - operētājsistēma  
-  u   -   
-  uname  - OS nosaukums  
-  man uname   - sīkāka informācija par doto komandu  
-  uname -a   - OS apraksts  
-  echo $0  
-  $ whoami  
-  whoami  
-  who  
-  pwd  
-  man pwd
-  ls  
-  man ls  
-  ls -l  
-  ls -a  
-  ls -la  
-  ls -lat  
-  history > history_20180905.txt  
-  1.stunda  
-  2.Stunda
-    1  VirtualBox --startvm XP
-      2  quartus
-      3  rm manamape
-     4  rm
-      5  L
-      6  rm -r
-     7  echo
-      8  echo "Teksts"
-      9  echo "Cits teksts"
-     10  man echo
-     11  echo -e "Teksts/nCits teksts"
-     12  echo -e "Teksts\nCits teksts"
-     13  echo "Teksts\nCits teksts"
-     14  echo "Teksts" > failsl.txt
-     15  ls
-     16  cat failsl.txt
-     17  ls -l
-     18  cat failsl.txt
-     19  echo "Cits teksts" > failsl.txt
-     20  cat failsl.txt
-     21  echo "Cits teksts" >> fails.txt
-     22  cat failsl.txt
-     23  ls -l
-     24  chmod 400 fails.txt
-     25  ls -l
-     26  ls -l fails.txt
-     27  echo "Vēl viens teksts" >> fails.txt
-     28  chmod 700 fails.txt
-     29  chmod 700 failsl.txt
-     30  ls -l
-     31  echo "Teksts" > ../fails.txt
-     32  pwds
-     33  pwd
-     34  nano failsl.txt
-     35  ls -l
-     36  cat fails
-     37  cat fails2.txt
-     38  cp failsl.txt fails3.txt
-     39  ls -l
-     40  mv *.txt Music/
-     41  ls -l
-     42  /Music$ mv *.txt ../
-     43  Music$ mv *.txt
-     44  mv failsl.txt fails31.txt
-     45  ls -l  
-     46  rm *3*.txt   
-     47  ls -l  
-  48 history > history_20180912.txt  
-      2.stunda    
-      3.Stunda   
+4.Stunda(history_20180926.txt)
+      1  VirtualBox --startvm XP
+    2  quartus
+    3  idle &
+    4  exit
+    5  ls -l
+    6  nano dgr_20180926.py
+       7  history > history_20180926.txt
+    4.Stunda
+
+3.Stunda(history_20180919.txt)   
       Stunda Skripts  
   mkdir Mape  
   cd	Mape  
@@ -172,5 +140,84 @@
      88  idle  
      89  pwd  
      90  ls -l  
-     91  history > history_20180919.txt    
-        3.stunda    
+         91  history > history_20180919.txt    
+        3.stunda
+        
+2.Stunda(history_20180912.txt)
+    1  VirtualBox --startvm XP
+      2  quartus
+      3  rm manamape
+     4  rm
+      5  L
+      6  rm -r
+     7  echo
+      8  echo "Teksts"
+      9  echo "Cits teksts"
+     10  man echo
+     11  echo -e "Teksts/nCits teksts"
+     12  echo -e "Teksts\nCits teksts"
+     13  echo "Teksts\nCits teksts"
+     14  echo "Teksts" > failsl.txt
+     15  ls
+     16  cat failsl.txt
+     17  ls -l
+     18  cat failsl.txt
+     19  echo "Cits teksts" > failsl.txt
+     20  cat failsl.txt
+     21  echo "Cits teksts" >> fails.txt
+     22  cat failsl.txt
+     23  ls -l
+     24  chmod 400 fails.txt
+     25  ls -l
+     26  ls -l fails.txt
+     27  echo "Vēl viens teksts" >> fails.txt
+     28  chmod 700 fails.txt
+     29  chmod 700 failsl.txt
+     30  ls -l
+     31  echo "Teksts" > ../fails.txt
+     32  pwds
+     33  pwd
+     34  nano failsl.txt
+     35  ls -l
+     36  cat fails
+     37  cat fails2.txt
+     38  cp failsl.txt fails3.txt
+     39  ls -l
+     40  mv *.txt Music/
+     41  ls -l
+     42  /Music$ mv *.txt ../
+     43  Music$ mv *.txt
+     44  mv failsl.txt fails31.txt
+     45  ls -l  
+     46  rm *3*.txt   
+     47  ls -l  
+         48 history > history_20180912.txt  
+      2.stunda    
+
+1.Stunda(history_20180905.txt)
+  Ctrl+Alt+T  - Termināļā ieslēgšasna  
+  Ctrl+L   - Termināļā attīrīšana  
+  Firefox &   - Atvērt internetu  
+  Burts(i)+TAB    - komandu saraksts  
+
+
+
+  OS  - operētājsistēma  
+  u   -   
+  uname  - OS nosaukums  
+  man uname   - sīkāka informācija par doto komandu  
+  uname -a   - OS apraksts  
+  echo $0  
+  $ whoami  
+  whoami  
+  who  
+  pwd  
+  man pwd
+  ls  
+  man ls  
+  ls -l  
+  ls -a  
+  ls -la  
+  ls -lat  
+     history > history_20180905.txt  
+  1.stunda  
