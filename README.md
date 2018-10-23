@@ -33,20 +33,20 @@
    4.Stunda
 
 ###  3.Stunda(history_20180919.txt    
-  mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam) cat-pārskatīt sarakstu nano-mans_skripts.sh (veidojam mapi) echo $PATH -(komandu saraksts) Path = piešķiršanas operāciju zīme rwx-111(7) rwx- 110(6) rwx- 100(4) ar skriptu var izveidot mapi instrukcijas 0/1 >   OS fails rakstīts cilvēkam saprotama valodā- tas nogādā interpratoram un -tas (OS)
-    Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šādas darbības:
-   1)Izveido teksta failu - nano mans_skripts.sh
-   2)Raksta ceļu un programmēšanas valodu ar kuru tiek izpildīts skripts - *#!bin/bash
-   3)Ieraksta komandas. piem. mkdir Mape...
-   4)PATH=$PATH:~ - paplašina adresi komandu meklēšanai
-   5)Saglabā failu
-   6)Lai atļautu palaist skriptu, nepieciešams modificēt faila atļaujas - *chmod 764 mans_skripts.sh
-   7)Palaiž skriptu mans_skripts.sh
-   chmod 764 git-upload  
-   echo $PATH
-   ./mans_skripts.sh  
-   ~/mans_skripts.sh    
-    3.stunda
+  mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam) cat-pārskatīt sarakstu nano-mans_skripts.sh (veidojam mapi) echo $PATH -(komandu saraksts) Path = piešķiršanas operāciju zīme rwx-111(7) rwx- 110(6) rwx- 100(4) ar skriptu var izveidot mapi instrukcijas 0/1 >   OS fails rakstīts cilvēkam saprotama valodā- tas nogādā interpratoram un -tas (OS)   
+    Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šādas darbības:   
+   1)Izveido teksta failu - nano mans_skripts.sh   
+   2)Raksta ceļu un programmēšanas valodu ar kuru tiek izpildīts skripts - *#!bin/bash   
+   3)Ieraksta komandas. piem. mkdir Mape...   
+   4)PATH=$PATH:~ - paplašina adresi komandu meklēšanai   
+   5)Saglabā failu   
+   6)Lai atļautu palaist skriptu, nepieciešams modificēt faila atļaujas - *chmod 764 mans_skripts.sh   
+   7)Palaiž skriptu mans_skripts.sh   
+   chmod 764 git-upload     
+   echo $PATH   
+   ./mans_skripts.sh     
+   ~/mans_skripts.sh       
+    3.stunda   
        
 ###  2.Stunda(history_20180912.txt)
    cd - pārvietošanās mapju sistēmā
