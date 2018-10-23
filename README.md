@@ -1,10 +1,10 @@
-#**  RTR105**   
-##  Datormācības kursa elektroniskā klade##   
+#  RTR105   
+##  Datormācības kursa elektroniskā klade   
     
 ###  8.Stunda    
  
     8.Stunda      
-###  7.Stunda(history_20181017.txt)**
+###  7.Stunda(history_20181017.txt)
 ```
       1  VirtualBox --startvm XP
     2  quartus
@@ -20,20 +20,20 @@
     7.Stunda
 ```
 
-###  6.Stunda*
+###  6.Stunda
     dgr_20181010_9_55.py
     test_20181010_1.py
     test_20181010_2.py
     6.Stunda
 
-###  5.Stunda(history_20181003a.txt)*
+###  5.Stunda(history_20181003a.txt)
     5.Stunda
 
-###  4.Stunda(history_20180926.txt)*
+###  4.Stunda(history_20180926.txt)
     6  nano dgr_20180926.py
     4.Stunda
 
-###  3.Stunda(history_20180919.txt)*   
+###  3.Stunda(history_20180919.txt   
   Skripts  
   mkdir Mape  
   cd	Mape  
@@ -61,7 +61,7 @@
      79  rm -rf RTR106/      
         3.stunda
         
-###  2.Stunda(history_20180912.txt)*
+###  2.Stunda(history_20180912.txt)
       3  rm manamape
      4  rm
       6  rm -r
@@ -82,7 +82,7 @@
      46  rm *3*.txt   
       2.stunda    
 
-###  1.Stunda(history_20180905.txt)*
+###  1.Stunda(history_20180905.txt)
   Ctrl+Alt+T  - Termināļā ieslēgšasna  
   Ctrl+L   - Termināļā attīrīšana  
   Firefox &   - Atvērt internetu  
