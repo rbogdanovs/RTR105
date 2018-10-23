@@ -1,9 +1,10 @@
 # RTR105
 ***Datormācības kursa elektroniskā klade***
     
-    .Stunda   
+    8.Stunda   
        
 *7.Stunda(history_20181017.txt)*
+```
       1  VirtualBox --startvm XP
     2  quartus
     3  git clone https://github.com/rbogdanovs/RTR105
@@ -16,7 +17,7 @@
    10  history
        11  history > history_20181017.txt
     7.Stunda
-
+```
 *6.Stunda*
     dgr_20181010_9_55.py
     test_20181010_1.py
