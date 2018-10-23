@@ -24,13 +24,19 @@
      dgr_20181010_9_55.py
      test_20181010_1.py
      test_20181010_2.py
+  input() - Lietotājam pieprasa ievadīt skaitli (Piem. input("Ievadi skaitli:")    
    6.Stunda
 
 ###  5.Stunda(history_20181003a.txt)
    5.Stunda
 
 ###  4.Stunda(history_20180926.txt)
-   4.Stunda
+   python - startē programmatūras valodu   
+   vars() - visas pieejamās komandas funkcija   
+   builtins.doc - īss apraksts komandai doc   
+   print() funkcija, kas parāda aprakstu ar komandām tajā (/n - kā rindkopas atstarpe)   
+   reāls skailis - "float"   
+  4.Stunda
 
 ###  3.Stunda(history_20180919.txt    
 ```  
