@@ -33,7 +33,8 @@
    4.Stunda
 
 ###  3.Stunda(history_20180919.txt    
-   mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam)
+```  
+  mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam)
      cat-pārskatīt sarakstu nano-mans_skripts.sh (veidojam mapi) echo $PATH -(komandu saraksts) Path = piešķiršanas operāciju zīme rwx-111(7) rwx- 110(6) rwx- 100(4) ar skriptu var izveidot mapi instrukcijas 0/1 >   OS fails rakstīts cilvēkam saprotama valodā- tas nogādā interpratoram un -tas (OS)   
     Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šādas darbības:   
    1)Izveido teksta failu - nano mans_skripts.sh   
@@ -47,9 +48,11 @@
    echo $PATH   
    ./mans_skripts.sh     
    ~/mans_skripts.sh       
-    3.stunda   
+```    
+   3.stunda   
        
 ###  2.Stunda(history_20180912.txt)
+```   
    cd - pārvietošanās mapju sistēmā   
    . - cd . nonākt tekošajā direktorijā (palikt uz vietas)   
    .. - cd .. nonākt par mapi uz augšu mapju direktorijā   
@@ -72,28 +75,31 @@
    fails - zvaigznītes apzīmē filtrē visus failus, kam nosaukumā fails   
    rm - dzēst failu   
    rm -f - dzēst failu, ja ir liegta piekļuve (rwx)   
-            2.stunda       
+```
+   2.stunda       
 
 ###  1.Stunda(history_20180905.txt)
-  Ctrl+Alt+T  - Termināļā ieslēgšasna  
-  Ctrl+L   - Termināļā attīrīšana  
+```  
+  Ctrl+Alt+T  - Termināļā ieslēgšasna   
+  Ctrl+L   - Termināļā attīrīšana    
   Firefox &   - Atvērt internetu  
-  Ctrl+Alt+F(1-7) - pārvietošanās uz citām OS vidēm
-  Burts(i)+TAB(2x)    - komandu saraksts (ar noteikto burtu) 
-  Q - saraksta aizvēršana
+  Ctrl+Alt+F(1-7) - pārvietošanās uz citām OS vidēm   
+  Burts(i)+TAB(2x)    - komandu saraksts (ar noteikto burtu)   
+  Q - saraksta aizvēršana   
   OS  - operētājsistēma  
   u   -   
-  uname  - OS nosaukums   
-  uname -a   - OS apraksts  
-  echo - izmantotā kodu valoda
-  echo $0 - izmantotās kodu valodas detalizētāks apraksts
-  whoami - lietotājs
-  who - lietotāja pieslēguma vide un laiks
-  pwd - lokācija failu sistēmā
-  pwds - 
-  man command - komandas apraksts
-  man uname   - sīkāka informācija par doto komandu
-  ls - galveno failu un mapju saraksts
-  ls -l - galveno failu un mapju detalizēts apraksts
-  ls -al - visu failu, mapju detalizēts apraksts
-     1.stunda  
+  uname  - OS nosaukums     
+  uname -a   - OS apraksts    
+  echo - izmantotā kodu valoda   
+  echo $0 - izmantotās kodu valodas detalizētāks apraksts   
+  whoami - lietotājs   
+  who - lietotāja pieslēguma vide un laiks   
+  pwd - lokācija failu sistēmā   
+  pwds -    
+  man command - komandas apraksts   
+  man uname   - sīkāka informācija par doto komandu   
+  ls - galveno failu un mapju saraksts   
+  ls -l - galveno failu un mapju detalizēts apraksts   
+  ls -al - visu failu, mapju detalizēts apraksts   
+```
+   1.stunda  
