@@ -1,9 +1,9 @@
 # RTR105
 ***Datormācības kursa elektroniskā klade***
     
-    8.Stunda   
+8.Stunda   
        
-*7.Stunda(history_20181017.txt)*
+**7.Stunda(history_20181017.txt)**
 ```
       1  VirtualBox --startvm XP
     2  quartus
