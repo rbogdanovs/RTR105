@@ -102,8 +102,7 @@
   echo $0 - izmantotās kodu valodas detalizētāks apraksts   
   whoami - lietotājs   
   who - lietotāja pieslēguma vide un laiks   
-  pwd - lokācija failu sistēmā   
-  pwds -    
+  pwd - lokācija failu sistēmā     
   man command - komandas apraksts   
   man uname   - sīkāka informācija par doto komandu   
   ls - galveno failu un mapju saraksts   
