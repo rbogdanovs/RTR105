@@ -1,9 +1,35 @@
 #  RTR105   
 ##  Datormācības kursa elektroniskā klade   
-    
+
+###  11.Stunda
+(20181114)
+
+   11.Stunda
+   
+###  10.Stunda
+(20181107)
+  s_c_s_v.py
+  sin_caur_summu_last.py
+  sin_caur_summu_ver4_original.py
+  sin_caur_summu_ver5.py
+   10.Stunda
+
+###  9.Stunda
+(20181031)
+dgr_20181031.py
+test_20181031.py
+mbox-short.txt
+ sin_caur_summu_ver1.py
+ sin_caur_summu_ver2.py
+ sin_caur_summu_ver3.py
+   9.Stunda
+
 ###  8.Stunda    
- 
+(20181024)
+ dgr_20181024.py
+ test_20181024.py
    8.Stunda      
+
 ###  7.Stunda(history_20181017.txt)
 ```
       1  VirtualBox --startvm XP
