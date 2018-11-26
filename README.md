@@ -1,6 +1,12 @@
 #  RTR105   
 ##  Datormācības kursa elektroniskā klade   
 
+###  13.Stunda
+(20181128)
+
+###  12.Stunda
+(20181121)
+
 ###  11.Stunda
 (20181114)
 
