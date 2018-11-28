@@ -1,3 +1,4 @@
+'''
 # 1. N vienmērīgi sadalīti gadījuma skaitļi
 # https://www.letonika.lv ; https://www.terminilza.lv
 # N uniformly distributed random number
@@ -18,7 +19,7 @@ N = 10000
 
 x = numpy.random.uniform(a,b,N)
 #x = numpy.random.normal(a,b,N)
-'''
+
 k = [0, 0, 0, 0, 0]
 for i in range(N):
     if x[i] < 1:
@@ -34,7 +35,7 @@ for i in range(N):
 
 print(k)
 print(sum(k))
-'''
+
 
 y = numpy.random.uniform(a,b,N)
 
@@ -57,6 +58,10 @@ S_nezinaamais = 1. * S_zinaamais * N1 /N
 print(S_nezinaamais)
 
 plt.show()
+'''
+import sys
+sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
 
+from numpy import exp, linspace
 
 
