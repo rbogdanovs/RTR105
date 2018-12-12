@@ -1,0 +1,32 @@
+#_*_ coding: utf-8 -*-
+from math import exp
+#print(exp(-x*x))
+#x = 0.56
+
+
+
+
+def mans_exp(x):
+    k = 0
+    a = (-1)**k*x**2*k/(1)
+    S = a
+    print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
+
+    while k < 4:
+        k = k + 1
+        R = ((-1)**k)/(k)*(x**2*k)
+        a = a * R
+        S = S + a
+        print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
+
+    print("Izdruka no liet.f. Beigas!")
+    return S
+
+x = float(input("Lietotāj, lūdzu ievadi skaitli argumentu (x): "))
+y = exp(-x*x)
+print("standarta funkcija (%.2f) = %6.2f"%(x,y))
+
+yy = mans_exp(-x*x)
+print("mans exp (%.2f = %6.2f"%(x,yy))
+
+#R = (-1)*x*x/((2*k)*(2*k+1))
