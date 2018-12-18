@@ -26,9 +26,9 @@ Amod                   Bmod                  Cmod                  Dmod
 
 
 Amod & Bmod            ABmod | Cmod          ABCmod ^ Dmod         ABCDmod = E (rezultāts)
-0000 1110              0000 1110             0011 1110             0011 1111(bin) = (dec) 
+0000 1110              0000 1110             0011 1110             0011 1111(bin) = 63(dec) 
 1000 1111              0011 1110             0000 0001
----------              ---------             ---------             aforismi -encodeAphorism 
+---------              ---------             ---------             aforismi -encodeAphorism 125 63
 0000 1110              0011 1110             0011 1111
 ABmod                  ABCmod                ABCDmod
 

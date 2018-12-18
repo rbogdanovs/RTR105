@@ -1,0 +1,157 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+user@epk428-1:~/RTR105$ ls-l
+ls-l: command not found
+user@epk428-1:~/RTR105$ ls -l
+total 588
+-rw-r--r-- 1 user user   138 Dec 18 14:29 170.py
+-rw-r--r-- 1 user user   993 Dec 18 14:29 170_test_.py
+-rw-r--r-- 1 user user   983 Dec 18 14:29 1B1.py
+-rw-r--r-- 1 user user   746 Dec 18 14:29 1B1_sin_.py
+-rw-r--r-- 1 user user 45722 Dec 18 14:29 derivative.png
+-rw-r--r-- 1 user user   995 Dec 18 14:29 derivative.py
+-rw-r--r-- 1 user user  6332 Dec 18 14:29 dg1B.py
+-rw-r--r-- 1 user user  3851 Dec 18 14:29 dgr_20180919.py
+-rw-r--r-- 1 user user 13374 Dec 18 14:29 dgr_20181003a.py
+-rw-r--r-- 1 user user  4619 Dec 18 14:29 dgr_20181010_9_55.py
+-rw-r--r-- 1 user user  8153 Dec 18 14:29 dgr_20181017.py
+-rw-r--r-- 1 user user  8390 Dec 18 14:29 dgr_20181024.py
+-rw-r--r-- 1 user user  3441 Dec 18 14:29 dgr_20181031.py
+-rw-r--r-- 1 user user 66261 Dec 18 14:29 dgr_20181121_9_47.py
+-rw-r--r-- 1 user user 47211 Dec 18 14:29 dgr_20181128.py
+-rw-r--r-- 1 user user  1048 Dec 18 14:29 dgr_20181205.py
+-rw-r--r-- 1 user user 26345 Dec 18 14:29 FigureCos_x_.png
+-rw-r--r-- 1 user user 26656 Dec 18 14:29 FigureSin_x_.png
+-rwxr-xr-x 1 user user   174 Dec 18 14:29 git-upload
+-rw-r--r-- 1 user user   410 Dec 18 14:29 history_20180905.txt
+-rw-r--r-- 1 user user  1073 Dec 18 14:29 history_20180912.txt
+-rw-r--r-- 1 user user  1909 Dec 18 14:29 history_20180919.txt
+-rw-r--r-- 1 user user   151 Dec 18 14:29 history_20180926.txt
+-rw-r--r-- 1 user user   180 Dec 18 14:29 history_20181003a.txt
+-rw-r--r-- 1 user user   241 Dec 18 14:29 history_20181017.txt
+-rw-r--r-- 1 user user   416 Dec 18 14:29 L1CH
+-rw-r--r-- 1 user user   386 Dec 18 14:29 mbox-short.txt
+-rw-r--r-- 1 user user   387 Dec 18 14:29 mbox.txt
+-rw-r--r-- 1 user user  1279 Dec 18 14:29 MonteCarlo.py
+-rw-r--r-- 1 user user   958 Dec 18 14:29 README1.md
+-rw-r--r-- 1 user user  5254 Dec 18 14:29 README.md
+-rw-r--r-- 1 user user 37462 Dec 18 14:29 sākuma_10000_M_C_.png
+-rw-r--r-- 1 user user 37558 Dec 18 14:29 sākuma_1000_M_C1_.png
+-rw-r--r-- 1 user user 49370 Dec 18 14:29 sākuma_1000_M_C_.png
+-rw-r--r-- 1 user user  3015 Dec 18 14:29 s_c_s_v.py
+-rw-r--r-- 1 user user   587 Dec 18 14:29 sin_caur_summu_last.py
+-rw-r--r-- 1 user user   602 Dec 18 14:29 sin_caur_summu_ver1.py
+-rw-r--r-- 1 user user   621 Dec 18 14:29 sin_caur_summu_ver2.py
+-rw-r--r-- 1 user user   713 Dec 18 14:29 sin_caur_summu_ver3.py
+-rw-r--r-- 1 user user   695 Dec 18 14:29 sin_caur_summu_ver4_original.py
+-rw-r--r-- 1 user user   543 Dec 18 14:29 sin_caur_summu_ver5.py
+-rw-r--r-- 1 user user  2204 Dec 18 14:29 Teilora_Rindas_Funkcija_Exp_1.darbs_
+-rw-r--r-- 1 user user  2501 Dec 18 14:29 Teilora_Rindas_Funkcija_Exp_1_darbs_.py
+-rw-r--r-- 1 user user 26933 Dec 18 14:29 Teilora_Rindas_Funkcija_Exp_1_darPython.py
+-rw-r--r-- 1 user user   638 Dec 18 14:29 test_1_20180926.py
+-rw-r--r-- 1 user user  1459 Dec 18 14:29 test_20181010_1.py
+-rw-r--r-- 1 user user    84 Dec 18 14:29 test_20181010_2.py
+-rw-r--r-- 1 user user  3446 Dec 18 14:29 test_20181017_1.py
+-rw-r--r-- 1 user user  1693 Dec 18 14:29 test_20181024.py
+-rw-r--r-- 1 user user   130 Dec 18 14:29 test_20181031.py
+-rw-r--r-- 1 user user  6581 Dec 18 14:50 Untitled.ipynb
+user@epk428-1:~/RTR105$ nano L1CH 
+user@epk428-1:~/RTR105$ ./git - upload 20181218_16_24
+bash: ./git: No such file or directory
+user@epk428-1:~/RTR105$ ./git-upload 20181218_16_24
+[master d835672] 20181218_16_24
+ 3 files changed, 202 insertions(+), 4 deletions(-)
+ create mode 100644 .ipynb_checkpoints/Untitled-checkpoint.ipynb
+ create mode 100644 Untitled.ipynb
+Username for 'https://github.com': rbogdanovs
+Password for 'https://rbogdanovs@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 4.34 KiB | 4.34 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/rbogdanovs/RTR105
+   a9a9d47..d835672  master -> master
+user@epk428-1:~/RTR105$ nano L1CH 
+user@epk428-1:~/RTR105$ ssh -X x181REB380@213.175.92.22
+Password: 
+Last login: Wed Dec  5 09:49:10 2018 from 213.175.95.75
+x181REB380@apps-etf-rtu-lv:~> encodeAphorism 125 63
+If 'encodeAphorism' is not a typo you can run the following command to lookup the package that contains the binary:
+    command-not-found encodeAphorism
+-bash: encodeAphorism: command not found
+x181REB380@apps-etf-rtu-lv:~> aforismi -encodeAphorism 125 63
+ IR Pareizi aprēķināts gadijuma skaitla grauds
+x181REB380@apps-etf-rtu-lv:~> ls -l
+total 12
+drwxr-xr-x 2 x181REB380 users 4096 sep  4 00:53 bin
+-rw-r--r-- 1 x181REB380 users  589 dec 18 17:21 data.bin
+-rw-r--r-- 1 x181REB380 users  252 dec 18 17:21 meta.bin
+x181REB380@apps-etf-rtu-lv:~> cat meta.bin 
+bv=�rx������j����X���k�7�l@h��\��kh���4�s��J���cy�#��K��<=�s	3�_�9�#<4�x181REB380@apps-etf-rtu-lv:~> QI
+x181REB380@apps-etf-rtu-lv:~> hexdump - C meta.bin
+hexdump: -: No such file or directory
+hexdump: C: No such file or directory
+0000000 6204 8701 1108 7605 3d03 f706 7206 4b02
+0000010 7808 ec05 e902 a305 7e01 da08 c803 bd03
+0000020 1204 6a05 a804 dd02 0607 c305 fd02 5807
+0000030 ca06 ce05 c804 6b02 0107 d806 3702 f406
+0000040 d902 6c08 4003 6802 1d07 bf04 3903 8f08
+0000050 5c04 b706 cf05 6b03 6801 9904 d908 e907
+0000060 ed03 3406 9f06 7305 c705 d704 4a01 0407
+0000070 c407 cb04 dd04 6307 7906 e505 8a03 0507
+0000080 2308 a402 d603 7f01 4b06 9e07 bc06 3c03
+0000090 5d01 1308 3d03 8007 7307 0906 3306 7507
+00000a0 4707 1902 3106 bb01 ee05 1202 fb03 2b07
+00000b0 5501 9207 b503 4803 7701 2502 5f03 0103
+00000c0 b408 c403 b206 6208 d801 4a05 c204 2b06
+00000d0 b408 a907 d002 9102 4301 f207 5103 4904
+00000e0 0d06 ea07 8d08 5f05 c007 3903 1f03 9906
+00000f0 2304 3c03 3404 3b06 8408 1907          
+00000fc
+x181REB380@apps-etf-rtu-lv:~> hexdump - C data.bin
+hexdump: -: No such file or directory
+hexdump: C: No such file or directory
+0000000 21d5 da63 e82e 712f eec4 11fe 674e d164
+0000010 9ef8 5413 1d17 ed03 26eb 9330 1927 f564
+0000020 1d55 2edb 8379 4ef4 57a4 0b28 c8d3 c2ec
+0000030 c7cc fd87 2b10 cccf 080a 23c9 cc1f 0a10
+0000040 f2fa ab40 0c32 a4d2 6127 7f7c e4a0 1974
+0000050 88ee c1cb ae16 945c 1e02 005b 2e72 cf86
+0000060 e336 9450 55f2 021c 0f60 4336 1b92 b9e7
+0000070 7cea 5967 a960 47db a9e8 11a6 445d 5f3a
+0000080 9562 5f68 1c90 c62e 6cb6 2050 881c 7c23
+0000090 97d4 66b8 b20e c74d b42e 2018 608e 0d8f
+00000a0 7767 c436 70bb 237c 061e 83dc 51ae b122
+00000b0 8e75 91d2 af16 0df5 33ae 1b5b a860 c3e2
+00000c0 5d8f 1d02 eca7 0e69 941a 2d22 50b5 5093
+00000d0 996e 1cd3 bbf9 9185 5749 8b22 4c5f 2f98
+00000e0 a70d 6e4a 4f40 fd2c 2eac 1abf 9799 1aaf
+00000f0 c4bb 4eff 15a9 e76d 26f7 89e8 6da2 eb1b
+0000100 c46b 4b3d 6d10 ab58 b7b7 a0c6 e407 b4c3
+0000110 12b3 4cde 8daa 080d 8c6e 8356 f91e 6c3e
+0000120 c582 d9e0 9de5 9ecc 17db 70ae 6f48 ff66
+0000130 6d36 57e3 d3f9 f620 0db7 6dd7 64a0 2f75
+0000140 f00e 92cb 09e9 febe ea6c 09d7 b6c8 5375
+0000150 e43a 24cd 3c2c 2c8a 7276 49f7 6c0f 0517
+0000160 8443 a5e8 f9a8 98b4 16c5 8246 44ce 7bee
+0000170 1bb8 6ef7 1391 3bdc 08b5 3f78 341c 36ea
+0000180 5644 294d 3949 d29a 42ef 45cb a3d3 90da
+0000190 8be9 325c 2d5f 4a88 4817 8642 4ad9 1e38
+00001a0 8ec1 3926 f7cd 245b 0395 2c9f 7a1e 5157
+00001b0 3ae8 2314 d762 ee56 317a 637f 8dc0 adde
+00001c0 d890 d9f5 dd1a b27b 3d38 5e41 0c76 0ef6
+00001d0 9ab9 6a12 1558 8363 2941 1886 4580 9374
+00001e0 f3b1 3ef6 c0d1 1687 60c7 4230 12c6 68b9
+00001f0 26ff 537f f6c7 8062 90d2 3574 a5d9 2cd7
+0000200 cf1a 325d 2d4f c5d1 c500 3ebc 96b9 5543
+0000210 a35d a085 b5ec 1fee 3609 15b5 356b dfa6
+0000220 0eae 4d4b 28b6 1a32 5b13 e469 20dc a969
+0000230 dc5b 49a8 1f40 44fd c29d 3d82 5e78 5d70
+0000240 2581 ec72 f65b cb18 6469 9281 0060     
+000024d
+x181REB380@apps-etf-rtu-lv:~> 
+x181REB380@apps-etf-rtu-lv:~> 
+
