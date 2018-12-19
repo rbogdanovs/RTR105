@@ -143,14 +143,14 @@ mbox-short.txt
        
 ###  2.Stunda(history_20180912.txt)
 ```   
-   cd - pārvietošanās mapju sistēmā   
-   . - cd . nonākt tekošajā direktorijā (palikt uz vietas)   
-   .. - cd .. nonākt par mapi uz augšu mapju direktorijā   
+   cd ( pārvietošanās mapju sistēm)   
+   cd . nonākt tekošajā direktorijā (palikt uz vietas)   
+   cd .. (nonākt par mapi uz augšu mapju direktorijā   
    / - cd / saknes apgabala apzīmejums (root) (augstākā direktorija)   
    /home/user / ~ / cd - atgriezties sākuma direktorijā   
-   mkdir - izveidot mapi   
-   rmdir - dzēst mapi   
-   rm -r - dzēst mapi ar visām apakšmapēm   
+   mkdir  (izveidot mapi   
+   rmdir  (dzēst mapi   
+   rm -r  (dzēst mapi ar visām apakšmapēm   
    echo (teksts) - parādīt tekstu   
    echo -e (teksts)\n(teksts) - teksts pa rindkopām (\n)   
    cat (fails)   
@@ -163,8 +163,10 @@ mbox-short.txt
    cp fails1.txt fails2.txt - failu kopēšana (1. fails - faila nosaukums pēc kopēšanas)   
     mv fails1.txt Music/ - faila pārvietošana uz Music/ direktoriju   
    fails - zvaigznītes apzīmē filtrē visus failus, kam nosaukumā fails   
-   rm - dzēst failu   
-   rm -f - dzēst failu, ja ir liegta piekļuve (rwx)   
+   rm - (dzēst failu)   
+   rm -f (dzēst failu, ja ir liegta piekļuve (rwx))   
+   rm -rf manamape/ (dzēst visu mapi, bez jautājumiem)
+   cd .. (Pārvietoties mapi uz augšu)
 ```
    2.stunda       
 

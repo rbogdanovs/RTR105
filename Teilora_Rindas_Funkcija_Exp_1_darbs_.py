@@ -8,22 +8,15 @@ def mans_exp(x):
     S = a
     print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
 
-    while k < 499:
-        k = k + 1
-        R = -1*x**2/k
-        a = a * R
-        S = S + a
-    if  k > 498:
-        print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-
     while k < 500:
         k = k + 1
         R = -1*x**2/k
         a = a * R
         S = S + a
-    if  k > 498:
-        print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-    
+        if  k > 498:
+            print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
+        elif k == 500:
+            print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
 
 
 
@@ -48,21 +41,15 @@ def mans_exp(x):
     S = a
     print("a0 = %6.2f S0 = %6.2f"%(a,S))
 
-    while k < 499:
-        k = k + 1
-        R = -1*x**2/k
-        a = a * R
-        S = S + a
-    if  k > 498:
-        print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-
     while k < 500:
         k = k + 1
         R = -1*x**2/k
         a = a * R
         S = S + a
-    if  k > 498:
-        print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
+        if  k == 499:
+            print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
+        elif k == 500:
+            print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
     
     
     return S
