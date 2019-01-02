@@ -50,29 +50,60 @@
 
 ###  12.Stunda
 (20181121)
+```
+"Monty Python"
+print(s[:2]) izprintē visu līdz 2. simbolam neieskaitot
+print(s[8:]) izprinte visu no 8.simbola ieskaiot
+print(s[:]) printē visu
 
+```
 ###  11.Stunda
 (20181114)
-
+```
+< *mazāks par*
+<= *mazāks vai vienāds*
+== *vienāds*
+!= *nav vienāds*
+= *piešķiršana*
+range(5) *no 0-4*
+if *ja*
+for *funkcija - cikls*
+elif *vai arī(ja ir papildus nosacījumi)*
+else *ja ne*
+plt.show() *parāda figūras attēlu*
+range() *veido sarakstu*
+chmod *faila redakcija*
+```
    11.Stunda
-   
+```
+print(...) *izprintē rakstīto lietotājam*
+type(...) *izprintē datu tipu*
+1. vai a*1. *pievieno skaitlim datu tipu float*
+integer *veselu skaitļu tips*
+string *simboli*
+float *peldošais tips - daļskaitļi*
+```   
 ###  10.Stunda
 (20181107)
+```  
   s_c_s_v.py
   sin_caur_summu_last.py
   sin_caur_summu_ver4_original.py
   sin_caur_summu_ver5.py
-   10.Stunda
+```   
+  10.Stunda
 
 ###  9.Stunda
   (20181031)
+```  
   dgr_20181031.py
   test_20181031.py
   mbox-short.txt
- sin_caur_summu_ver1.py
- sin_caur_summu_ver2.py
- sin_caur_summu_ver3.py
-   9.Stunda
+  sin_caur_summu_ver1.py
+  sin_caur_summu_ver2.py
+  sin_caur_summu_ver3.py
+``` 
+  9.Stunda
 
 ###  8.Stunda    
 (20181024)
@@ -104,7 +135,13 @@
    6.Stunda
 
 ###  5.Stunda(history_20181003a.txt)
+```
+vars() *izprintē funkcijas iespējas*
+builtins *izprintē iebūvētās funkcijas*
+doc *dokumentē funkciju*
+```
    5.Stunda
+
 
 ###  4.Stunda(history_20180926.txt)
    python - startē programmatūras valodu   
@@ -117,7 +154,10 @@
 ###  3.Stunda(history_20180919.txt    
 ```  
   mkdir MapeMapee fails = piešķiršanas operācijas zīme (pa labi komanda piešķir kreisajam failam)
-  cat-pārskatīt sarakstu nano-mans_skripts.sh (veidojam mapi) echo $PATH -(komandu saraksts) 
+  cat-pārskatīt sarakstu 
+  nano-mans_skripts.sh (veidojam mapi) 
+  echo $PATH -(komandu saraksts) 
+  
   Path = piešķiršanas operāciju zīme rwx-111(7) rwx- 110(6) rwx- 100(4) ar skriptu var izveidot mapi instrukcijas 
   0/1 > OS fails rakstīts cilvēkam saprotama valodā- tas nogādā interpratoram un -tas (OS)   
    > Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šādas darbības:   
@@ -137,14 +177,14 @@
        
 ###  2.Stunda(history_20180912.txt)
 ```   
-   cd ( pārvietošanās mapju sistēm)   
+   cd ( pārvietošanās mapju sistēmā)   
    cd . nonākt tekošajā direktorijā (palikt uz vietas)   
    cd .. (nonākt par mapi uz augšu mapju direktorijā   
    / - cd / saknes apgabala apzīmejums (root) (augstākā direktorija)   
    /home/user / ~ / cd - atgriezties sākuma direktorijā   
-   mkdir  (izveidot mapi   
-   rmdir  (dzēst mapi   
-   rm -r  (dzēst mapi ar visām apakšmapēm   
+   mkdir  (izveidot mapi)   
+   rmdir  (dzēst mapi)   
+   rm -r  (dzēst mapi ar visām apakšmapēm)   
    echo (teksts) - parādīt tekstu   
    echo -e (teksts)\n(teksts) - teksts pa rindkopām (\n)   
    cat (fails)   
@@ -155,7 +195,7 @@
    nano (fails) - atver tekstu redaktorā    
    chmod 540 fails.txt - maina darbību atļaujas failam (540 pēc binārajiem cipariem RWX RWX RWX - 101 100 000)   
    cp fails1.txt fails2.txt - failu kopēšana (1. fails - faila nosaukums pēc kopēšanas)   
-    mv fails1.txt Music/ - faila pārvietošana uz Music/ direktoriju   
+   mv fails1.txt Music/ - faila pārvietošana uz Music/ direktoriju   
    fails - zvaigznītes apzīmē filtrē visus failus, kam nosaukumā fails   
    rm - (dzēst failu)   
    rm -f (dzēst failu, ja ir liegta piekļuve (rwx))   
@@ -173,7 +213,6 @@
   Burts(i)+TAB(2x)    - komandu saraksts (ar noteikto burtu)   
   Q - saraksta aizvēršana   
   OS  - operētājsistēma  
-  u   -   
   uname  - OS nosaukums     
   uname -a   - OS apraksts    
   echo - izmantotā kodu valoda   
