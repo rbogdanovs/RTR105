@@ -1,5 +1,5 @@
 Class 5
-```   
+ ```   
 2.3 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
 
 Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). 
@@ -29,7 +29,7 @@ pay = float(hrs) * float(rate)
 print("Pay:", pay)
 ```   
 Class 8
-```   
+ ```   
 3.1 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
 
 Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours. 
@@ -73,7 +73,7 @@ else:
     print(h * r)
 ```   
 Class 8
-```   
+ ```   
 3.3 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error. 
 
 If the score is between 0.0 and 1.0, print a grade using the following table:
@@ -127,7 +127,7 @@ elif x < 0.6:
     print("F") 
 ```   
 Class 9
-```   
+ ```   
 4.6 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
 
 Pay should be the normal rate for hours up to 40 and time-and-a-half for the hourly rate for all 
@@ -187,7 +187,7 @@ else:
 #print("Pay",p)
 ```   
 Class 10
-```   
+ ```   
 5.2 Write a program that repeatedly prompts a user for integer numbers until the user enters 'done'. 
 
 Once 'done' is entered, print out the largest and smallest of the numbers. 
@@ -247,7 +247,7 @@ print("Maximum is", largest)
 print("Minimum is", smallest)
 ```   
 Class 12
-```   
+ ```   
 6.5 Write code using find() and string slicing (see section 6.10) to extract 
 
 the number at the end of the line below. Convert the extracted value to
@@ -281,7 +281,7 @@ def reprint(printed):
 reprint(result)
 ```   
 Class 13
-```   
+ ```   
 7.2 Write a program that prompts for a file name, then opens that file and reads 
 
 through the file, looking for lines of the form:
