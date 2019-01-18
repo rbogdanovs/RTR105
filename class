@@ -1,0 +1,359 @@
+```
+2.3 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
+
+Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). 
+
+You should use input to read a string and float() 
+
+to convert the string to a number. Do not worry about error checking or bad user data.
+
+
+
+Jâievada:
+
+Hours - (35)
+
+Rate - (2.75)
+
+
+
+
+
+hrs = input("Enter hours:")
+
+rate = input("Enter rate:")
+
+pay = float(hrs) * float(rate)
+
+print("Pay:", pay)
+```
+
+```
+3.1 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
+
+Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours. 
+
+Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). 
+
+You should use input to read a string and float() to convert the string to a number. 
+
+Do not worry about error checking the user input - assume the user types numbers properly.
+
+
+
+Jâievada:
+
+Hours - (45)
+
+Rate - (10.50)
+
+
+
+
+
+hrs = input("Enter Hours: ")
+
+h = float(hrs)
+
+
+
+rate = input("Enter Rate: ")
+
+r = float(rate)
+
+
+
+if h > 40 :
+
+    print(r * 1.50 * (h - 40) + 40 * r)
+
+else:
+
+    print(h * r)
+```
+
+```
+3.3 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error. 
+
+If the score is between 0.0 and 1.0, print a grade using the following table:
+
+Score Grade
+
+>= 0.9 A
+
+>= 0.8 B
+
+>= 0.7 C
+
+>= 0.6 D
+
+< 0.6 F
+
+If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
+
+
+
+Jâievada: (0.85)
+
+
+
+
+
+x = input("Enter Score: ")
+
+x = float(x)
+
+
+
+if x >= 0.9:
+
+    print("A")
+
+elif x >= 0.8:
+
+    print("B")
+
+elif x >= 0.7:
+
+    print("C")  
+
+elif x >= 0.6:
+
+    print("D") 
+
+elif x < 0.6:
+
+    print("F") 
+```
+
+```
+4.6 Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
+
+Pay should be the normal rate for hours up to 40 and time-and-a-half for the hourly rate for all 
+
+hours worked above 40 hours. Put the logic to do the computation of time-and-a-half in a function 
+
+called computepay() and use the function to do the computation. The function should return a value. 
+
+Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). 
+
+You should use input to read a string and float() to convert the string to a number. Do not worry 
+
+about error checking the user input unless you want to - you can assume the user types numbers properly. 
+
+Do not name your variable sum or use the sum() function.
+
+
+
+Jâievada:
+
+Hours - (45)
+
+Rate - (10.50)
+
+
+
+
+
+def computepay(h,r):
+
+    return(p)
+
+hrs = input("Enter Hours: ")
+
+h = float(hrs)
+
+
+
+rate = input("Enter Rate: ")
+
+r = float(rate)
+
+p = computepay
+
+
+
+if h > 40 :
+
+    print(r * 1.50 * (h - 40) + 40 * r)
+
+else:
+
+    print(h * r)
+
+    
+
+#print("Pay",p)
+```
+
+```
+5.2 Write a program that repeatedly prompts a user for integer numbers until the user enters 'done'. 
+
+Once 'done' is entered, print out the largest and smallest of the numbers. 
+
+If the user enters anything other than a valid number catch it with a try/except and put out an 
+
+appropriate message and ignore the number. Enter 7, 2, bob, 10, and 4 and match the output below.
+
+
+
+Jâievada: (7),(2),(bob),(10),(4) and (done)
+
+
+
+
+
+largest = None
+
+smallest = None
+
+while True:
+
+    inp = raw_input("Ievadi skaitli:")
+
+    if inp == "done":
+
+        break
+
+    try:
+
+        num = int(inp)
+
+        if smallest is None:
+
+            smallest = num
+
+        elif num < smallest:
+
+            smallest = num
+
+        if largest is None:
+
+            largest = num
+
+        elif num > largest:
+
+                largest = num
+
+    except ValueError:
+
+        print("Invalid input")
+
+        #break
+
+print("Maximum is", largest)
+
+print("Minimum is", smallest)
+```
+
+```
+6.5 Write code using find() and string slicing (see section 6.10) to extract 
+
+the number at the end of the line below. Convert the extracted value to
+
+a floating point number and print it out.
+
+
+
+
+
+text = "X-DSPAM-Confidence:    0.8475";
+
+
+
+spacePos = text.find(" ")
+
+number = text[spacePos::1]
+
+strippedNumber = number.lstrip();
+
+result = float(strippedNumber)
+
+
+
+def reprint(printed):
+
+    print(printed)  
+
+
+
+reprint(result)
+```
+
+```
+7.2 Write a program that prompts for a file name, then opens that file and reads 
+
+through the file, looking for lines of the form:
+
+X-DSPAM-Confidence:    0.8475
+
+Count these lines and extract the floating point values from each of the lines 
+
+and compute the average of those values and produce an output as shown below. 
+
+Do not use the sum() function or a variable named sum in your solution.
+
+You can download the sample data at http://www.py4e.com/code3/mbox-short.txt 
+
+when you are testing below enter mbox-short.txt as the file name.
+
+
+
+Jâievada: (mbox-short.txt)
+
+
+
+
+
+def openfile():
+
+    fname = raw_input("Enter file name: ")
+
+    try:
+
+        fh = open(fname, 'r')
+
+    except:
+
+        print ("Error opening file", fname)
+
+        quit()
+
+    return fh
+
+
+
+def computeAverage(fh):
+
+    average = None
+
+    count = 0
+
+    for line in fh:
+
+        if line.startswith("X-DSPAM-Confidence:") :
+
+            count = count + 1
+
+            columnPos = line.find(":")
+
+            number = line[columnPos+1::1]
+
+            snumber = number.lstrip()
+
+            if average is None:
+
+                average = 0
+
+            snumber = float(snumber.rstrip())
+
+            average = ( (average * ((count -1)) + snumber) / count )
+
+    return average
+
+
+
+fh = openfile()
+
+print ("Average spam confidence:", computeAverage(fh))
+```
