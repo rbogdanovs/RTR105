@@ -1,0 +1,70 @@
+%%Rainers Bogdanovs 181REB380 2.grupa REBCO2
+%% 1.Labaratorijas darbs
+%% Mērījumu datu apstrāde
+%% Darba mērķi:
+% * Iepazīties ar mērījumu apstrādes pamatiem
+% * Iemācīties pielietot apgūtās zināšanas priekšmetos, 
+% kur ir nepieciešama mērījumu datu apstrāde (fizika, ETP)
+% * Iemācīties veidot atskaites ar Matlab palīdzību
+%% Ievadīsim eksperimentālus datus:
+% X = 578.9995:0.01:633.7218;
+% Y = polyval(C,X);
+% Pamēģināsim uzzīmēt grafiku
+% plot(x,y,'o-')% neder, jo ir lauztā līnija
+% Meģināsim atrast matematisku sakarību, kas sasaista tos punktus
+% Sakarību meklēsim polinomiālā veidā
+% Sāksim ar 2.kārtas polinomu
+% y = C1*x^2+C2*x+C3
+
+% Ielasīsim bildes matlaba
+A = imread('bilde1.png');
+B = imread('bilde2.png');
+figure(1),image(A)
+figure(2),image([500 800],[1 0],B)
+set(gca,'YDir','normal')
+%[x,y] = ginput(10)
+x = [ 578.9995
+  594.9314
+  605.3217
+  610.1705
+  615.0193
+  619.1754
+  621.9462
+  625.4096
+  628.8730
+  633.7218];
+
+
+y =[ 0.0805
+    0.2037
+    0.3768
+    0.4765
+    0.6173
+    0.7141
+    0.8022
+    0.8960
+    0.9635
+    0.9870];
+%% Pieņemsim, ka x un y ir mūsu mērījumu dati
+%% Uzdevums:
+% Pielaikojiet 2,3,4? kārtas polinomu šiem datiem,
+% un arī uzzīmējiet to polinomu jāizmanto polyfit, polyval funkcijas
+% Jāuzzīmē grafiks mērījumu dati ar aplīšiem
+% Pielaikotais polinoms - ar līniju
+% Uzraksti uz asīm (xlabel,ylabel,legend)
+% Jānoformē atskaite
+% Jāspiež publish-> publish
+% Atvērsies html versija
+% Tad nomainīsim publish option uz pdf un ielādēsim ortusā
+plot(x,y,'o-')
+C = polyfit(x,y,2);
+X = 578.9995:0.01:633.7218;
+Y = polyval(C,X);
+plot(x,y,'o',X,Y)
+xlabel('Wavelenght (nm)')
+ylabel('Relative Radiant Intensity')
+%% Secinājumi:
+% *Šiem datiem vislabāk der 2 kārtas polinoms.
+% *Ievadīt eksperimentālos datus, un tos efektīvi izmantot.
+% *Uzzīmēt tiem atbilstošu grafiku.
+% *Atrast koeficentus un izrēķināt polinomu.
